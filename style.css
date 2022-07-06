@@ -16,15 +16,17 @@ h1{
 }
 p{
     text-align: justify;
+    margin-right: 10%;
 }
 section{
     display: flex;
+    margin-bottom: 20px;
 }
 .half-width{
     width: 50%;
     padding-left: 5% ;
     padding-right: 5%;
-    padding-top: 5%;
+    padding-top: 5%;    
 }
 .half-width img{
     width: 100%;
@@ -43,4 +45,9 @@ section{
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.dream{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
